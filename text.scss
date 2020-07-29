@@ -273,6 +273,7 @@ section{
                     position: absolute;
                     left: 90px;
                     top: 15px;
+                    box-sizing: border-box;
                     cursor: pointer;
                     outline: none;
                     @media (max-width:500px){
@@ -299,6 +300,7 @@ section{
                     text-align: center;
                     font-weight: bold;
                     border: 1px blanchedalmond solid;
+                    box-sizing: border-box;
                     position: absolute;
                     right: 90px;
                     top: 15px;
@@ -392,6 +394,7 @@ section{
                     border: 1px blanchedalmond solid;
                     position: absolute;
                     left: 90px;
+                    box-sizing: border-box;
                     top: 15px;
                     cursor: pointer;
                     outline: none;
@@ -415,6 +418,7 @@ section{
                     width: 40px;
                     height:40px;
                     line-height: 40px;
+                    box-sizing: border-box;
                     font-size: 36px;
                     text-align: center;
                     font-weight: bold;
