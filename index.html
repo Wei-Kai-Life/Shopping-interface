@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping interface</title>
+    <link rel="stylesheet" href="./text.css">
+</head>
+
+<body onload="init()">
+    <div id="app">
+        <section>
+            <div class="container">
+                <div class="left-side">
+                    <!-- <div class="product-pic"></div> -->
+                    <img src="./switch.jpg" alt="" id="product-img">
+                </div>
+                <div class="right-side">
+                    <div class="reservation" v-if="canbuy===0">{{reservation_txt}}<span
+                            v-if="canbuy===0">{{reservation}}</span></div>
+                    <div class="timeout" id="timeout">倒數時間:<span id="countdown">70</span>秒</div>
+                    <div class="name">商品名稱:Switch</div>
+                    <div class="amount">剩餘數量:<span id="canbuy">{{canbuy}}</span></div>
+                    <div class="buy-area">
+                        <div class="buy" v-if="canbuy > 0" @click="gotobuy">購買</div>
+                        <div class="buy-2" v-if="canbuy===0" @click="gotobook">預購<div>
+
+                            </div>
+                        </div>
+                        <div class="purchase">
+                            <div class="title">我要購買</div>
+                            <div id="close"></div>
+                            <div class="take-space">
+                                <button v-if="index > 1" @click="changeIndex(-1)" id="reduce">-</button>
+                                <div id="num">{{index}}</div>
+                                <button v-if="index < canbuy" @click="changeIndex(1)" id="add">+</button>
+                            </div>
+                            <div id="confirm-box">
+                                <button id="confirm" @click="result()">確定</button>
+                            </div>
+                        </div>
+                        <div class="purchase-book ">
+                            <div class="title">我要預購</div>
+                            <div id="close2"></div>
+                            <div class="take-space">
+                                <button id="reduce" v-if="index2 >1" @click="changeIndex2(-1)">-</button>
+                                <div id="num">{{index2}}</div>
+                                <button id="add" v-if="index2 < canbook" @click="changeIndex2(1)">+</button>
+                            </div>
+                            <div id="confirm-box">
+                                <button id="confirm" @click="result2">確定</button>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="./shopping.js"></script>
+
+</body>
+
+</html>
