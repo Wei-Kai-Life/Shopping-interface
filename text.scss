@@ -269,7 +269,7 @@ section{
                     line-height: 30px;
                     text-align: center;
                     font-size: 40px;
-                    // border: 1px blanchedalmond solid;
+                    border: 5px blanchedalmond solid;
                     position: absolute;
                     left: 90px;
                     top: 15px;
@@ -277,6 +277,7 @@ section{
                     background-color: #EFEEED;
                     cursor: pointer;
                     outline: none;
+
                     @media (max-width:500px){
                         left: 50px;
                     }
