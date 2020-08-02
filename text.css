@@ -317,6 +317,7 @@ section .container .right-side .buy-area .buy {
 
 section .container .right-side .buy-area .buy-2 {
   width: 50%;
+  min-width: 104px;
   height: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
