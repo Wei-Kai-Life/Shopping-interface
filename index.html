@@ -32,7 +32,7 @@
                             <div class="title">我要購買</div>
                             <div id="close"></div>
                             <div class="take-space">
-                                <button v-if="index > 1" @click="changeIndex(-1)" id="reduce">-</button>
+                                <button  @click="changeIndex(-1)" id="reduce">-</button>
                                 <div id="num">{{index}}</div>
                                 <button v-if="index < canbuy" @click="changeIndex(1)" id="add">+</button>
                             </div>
