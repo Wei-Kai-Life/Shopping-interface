@@ -159,7 +159,7 @@ section{
                     width: 180px;
                 }
                 @media (max-width:400px){
-                    width: 160px;
+                    width: 170px;
                 } 
             }
             .buy-area{
@@ -183,7 +183,7 @@ section{
                     width: 180px;
                 }
                 @media (max-width:400px){
-                    width: 160px;
+                    width: 170px;
                 }
                 .buy{
                     width: 50%;
@@ -283,14 +283,14 @@ section{
                     }
                 }
                 #num{
-                    width: 120px;
+                    width: 60px;
                     height: 50px;
                     font-size: 54px;
                     line-height: 50px;
                     text-align: center;
-                    position: absolute;
+                    position: relative;
                     // border: 1px blanchedalmond solid;
-                    right: calc(50% - 60px);
+                    right: -39%;
                     top: 10px;
 
                 }
@@ -410,14 +410,14 @@ section{
                     }
                 }
                 #num{
-                    width: 120px;
+                    width: 60px;
                     height: 50px;
                     font-size: 54px;
                     line-height: 50px;
                     text-align: center;
-                    position: absolute;
+                    position: relative;
                     // border: 1px blanchedalmond solid;
-                    right: calc(50% - 60px);
+                    right: -39%;
                     top: 10px;
 
                 }
