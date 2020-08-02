@@ -34,7 +34,7 @@
                             <div class="take-space">
                                 <button v-if="index > 1" @click="changeIndex(-1)" id="reduce">-</button>
                                 <div id="num">{{index}}</div>
-                                <button v-if="index < canbuy" @click="changeIndex(1)" id="add">+</button>
+                                <div v-if="index < canbuy" @click="changeIndex(1)" id="add">+</div>
                             </div>
                             <div id="confirm-box">
                                 <button id="confirm" @click="result()">確定</button>
