@@ -275,6 +275,7 @@ section{
                     top: 15px;
                     // box-sizing: border-box;
                     background-color: #EFEEED;
+                    appearance: none;
                     cursor: pointer;
                     outline: none;
                     @media (max-width:500px){
@@ -307,6 +308,7 @@ section{
                     top: 15px;
                     background-color: #EFEEED;
                     cursor: pointer;
+                    appearance: none;
                     outline: none;
                     @media (max-width:500px){
                         right: 50px;
@@ -402,6 +404,7 @@ section{
                     background-color: #EFEEED;
                     cursor: pointer;
                     outline: none;
+                    appearance: none;
                     @media (max-width:500px){
                         left: 50px;
                     }
@@ -431,6 +434,7 @@ section{
                     right: 90px;
                     top: 15px;
                     background-color: #EFEEED;
+                    appearance: none;
                     cursor: pointer;
                     outline: none;
                     @media (max-width:500px){

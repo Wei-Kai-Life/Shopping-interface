@@ -401,6 +401,9 @@ section .container .purchase .take-space #reduce {
   left: 90px;
   top: 15px;
   background-color: #EFEEED;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   cursor: pointer;
   outline: none;
 }
@@ -435,6 +438,9 @@ section .container .purchase .take-space #add {
   top: 15px;
   background-color: #EFEEED;
   cursor: pointer;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   outline: none;
 }
 
@@ -538,6 +544,9 @@ section .container .purchase-book .take-space #reduce {
   background-color: #EFEEED;
   cursor: pointer;
   outline: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
 @media (max-width: 500px) {
@@ -569,6 +578,9 @@ section .container .purchase-book .take-space #add {
   right: 90px;
   top: 15px;
   background-color: #EFEEED;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   cursor: pointer;
   outline: none;
 }
