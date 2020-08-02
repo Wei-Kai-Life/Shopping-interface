@@ -421,7 +421,6 @@ section .container .purchase .take-space #num {
   position: absolute;
   right: calc(50% - 60px);
   top: 10px;
-  background-color: #b91a1a;
 }
 
 section .container .purchase .take-space #add {
@@ -434,7 +433,7 @@ section .container .purchase .take-space #add {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   position: absolute;
-  right: 0px;
+  right: 90px;
   top: 15px;
   background-color: #EFEEED;
   cursor: pointer;
