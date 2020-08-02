@@ -273,7 +273,8 @@ section{
                     position: absolute;
                     left: 90px;
                     top: 15px;
-                    box-sizing: border-box;
+                    // box-sizing: border-box;
+                    background-color: #EFEEED;
                     cursor: pointer;
                     outline: none;
                     @media (max-width:500px){
@@ -300,10 +301,11 @@ section{
                     text-align: center;
                     font-weight: bold;
                     border: 1px blanchedalmond solid;
-                    box-sizing: border-box;
+                    // box-sizing: border-box;
                     position: absolute;
                     right: 90px;
                     top: 15px;
+                    background-color: #EFEEED;
                     cursor: pointer;
                     outline: none;
                     @media (max-width:500px){
@@ -330,6 +332,7 @@ section{
                     margin: 0 140px;
                     border: 1px black solid;
                     background-color: #EFEEED;
+                   
                     @media (max-width:500px) {
                         margin: auto;
                     }
@@ -394,8 +397,9 @@ section{
                     border: 1px blanchedalmond solid;
                     position: absolute;
                     left: 90px;
-                    box-sizing: border-box;
+                    // box-sizing: border-box;
                     top: 15px;
+                    background-color: #EFEEED;
                     cursor: pointer;
                     outline: none;
                     @media (max-width:500px){
@@ -418,7 +422,7 @@ section{
                     width: 40px;
                     height:40px;
                     line-height: 40px;
-                    box-sizing: border-box;
+                    // box-sizing: border-box;
                     font-size: 36px;
                     text-align: center;
                     font-weight: bold;
@@ -426,6 +430,7 @@ section{
                     position: absolute;
                     right: 90px;
                     top: 15px;
+                    background-color: #EFEEED;
                     cursor: pointer;
                     outline: none;
                     @media (max-width:500px){
