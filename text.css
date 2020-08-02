@@ -396,7 +396,6 @@ section .container .purchase .take-space #reduce {
   line-height: 30px;
   text-align: center;
   font-size: 40px;
-  border: 1px blanchedalmond solid;
   position: absolute;
   left: 90px;
   top: 15px;
@@ -431,7 +430,6 @@ section .container .purchase .take-space #add {
   font-size: 36px;
   text-align: center;
   font-weight: bold;
-  border: 1px blanchedalmond solid;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   position: absolute;
@@ -535,7 +533,6 @@ section .container .purchase-book .take-space #reduce {
   line-height: 30px;
   text-align: center;
   font-size: 40px;
-  border: 1px blanchedalmond solid;
   position: absolute;
   left: 90px;
   -webkit-box-sizing: border-box;
@@ -572,7 +569,6 @@ section .container .purchase-book .take-space #add {
   font-size: 36px;
   text-align: center;
   font-weight: bold;
-  border: 1px blanchedalmond solid;
   position: absolute;
   right: 90px;
   top: 15px;
