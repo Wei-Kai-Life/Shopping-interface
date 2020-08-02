@@ -32,9 +32,9 @@
                             <div class="title">我要購買</div>
                             <div id="close"></div>
                             <div class="take-space">
-                                <button style="width: 40px;" v-if="index > 1" @click="changeIndex(-1)" id="reduce">-</button>
+                                <button v-if="index > 1" @click="changeIndex(-1)" id="reduce">-</button>
                                 <div id="num">{{index}}</div>
-                                <button style="width: 40px;" v-if="index < canbuy" @click="changeIndex(1)" id="add">+</button>
+                                <button v-if="index < canbuy" @click="changeIndex(1)" id="add">+</button>
                             </div>
                             <div id="confirm-box">
                                 <button id="confirm" @click="result()">確定</button>
@@ -44,9 +44,9 @@
                             <div class="title">我要預購</div>
                             <div id="close2"></div>
                             <div class="take-space">
-                                <button style="width: 40px;" id="reduce" v-if="index2 >1" @click="changeIndex2(-1)">-</button>
+                                <button id="reduce" v-if="index2 >1" @click="changeIndex2(-1)">-</button>
                                 <div id="num">{{index2}}</div>
-                                <button style="width: 40px;" id="add" v-if="index2 < canbook" @click="changeIndex2(1)">+</button>
+                                <button id="add" v-if="index2 < canbook" @click="changeIndex2(1)">+</button>
                             </div>
                             <div id="confirm-box">
                                 <button id="confirm" @click="result2">確定</button>

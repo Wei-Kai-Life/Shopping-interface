@@ -264,7 +264,7 @@ section{
                 box-sizing: border-box;
                 position: relative;
                 #reduce{
-                    width: 40px;
+                    width: 40px !important;
                     height:40px;
                     line-height: 30px;
                     text-align: center;
@@ -292,11 +292,11 @@ section{
                     // border: 1px blanchedalmond solid;
                     right: calc(50% - 60px);
                     top: 10px;
-                    background-color: salmon;
+                    background-color: rgb(69, 26, 185);
 
                 }
                 #add{
-                    width: 40px;
+                    width: 40px !important;
                     height:40px;
                     line-height: 40px;
                     font-size: 36px;
@@ -305,7 +305,7 @@ section{
                     // border: 1px blanchedalmond solid;
                     box-sizing: border-box;
                     position: absolute;
-                    right: 90px;
+                    right: 0px;
                     top: 15px;
                     background-color: #EFEEED;
                     cursor: pointer;
@@ -391,7 +391,7 @@ section{
                 box-sizing: border-box;
                 position: relative;
                 #reduce{
-                    width: 40px;
+                    width: 40px !important;
                     height:40px;
                     line-height: 30px;
                     text-align: center;
@@ -421,7 +421,7 @@ section{
 
                 }
                 #add{
-                    width: 40px;
+                    width: 40px !important;
                     height:40px;
                     line-height: 40px;
                     box-sizing: border-box;
