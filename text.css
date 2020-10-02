@@ -103,7 +103,7 @@ section .container .right-side {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 @media (max-width: 1600px) {
@@ -143,16 +143,8 @@ section .container .right-side {
 }
 
 section .container .right-side .reservation {
-  position: absolute;
-  top: 30px;
-  right: 50px;
-  font-weight: bold;
-}
-
-@media (max-width: 1000px) {
-  section .container .right-side .reservation {
-    right: 15px;
-  }
+  width: 60%;
+  height: 40px;
 }
 
 section .container .right-side .timeout {

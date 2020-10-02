@@ -13,10 +13,10 @@ var purchase_book = document.querySelector('.purchase-book')
 let data = {
     index: 1,
     canbuy: 10,
-    reservation_txt: '預購數量:',
+    reservation_txt: '預購數量(上限30台):',
     reservation: 0,
     index2: 1,
-    canbook: 99
+    canbook: 30
 }
 
 let vm = new Vue({
@@ -40,12 +40,12 @@ let vm = new Vue({
             }
         },
         result2() {
-            if (this.reservation < 99) {
+            if (this.reservation < 30) {
                 this.reservation = this.reservation + this.index2
                 this.canbook = this.canbook - this.index2
                 this.index2 = 1
                 purchase_book.classList.remove('act')
-            } else if (this.reservation === 99) {
+            } else if (this.reservation === 30) {
             }
         },
         gotobuy() {
@@ -57,7 +57,7 @@ let vm = new Vue({
             if (book_over === '停售') {
                 alert("商品活動已結束囉")
             }
-            else if (this.reservation === 99) {
+            else if (this.reservation === 30) {
                 buy_2.classList.add("over")
                 over()
             } else {

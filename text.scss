@@ -63,7 +63,7 @@ section{
            flex-wrap: wrap;
            align-items: center;
            justify-content: center;
-           padding: 100px 0 ;
+           padding: 50px 0 ;
            @media (max-width:1600px) {
                height: 600px;
            }
@@ -85,13 +85,16 @@ section{
                 padding: 5px 0 40px 0;
             }
             .reservation{
-                position: absolute;
-                top: 30px;
-                right: 50px;
-                font-weight: bold;
-                @media (max-width:1000px){
-                    right: 15px;
-                }
+                width: 60%;
+                height: 40px;
+                // position: absolute;
+                // top: 30px;
+                // right: 50px;
+                // font-weight: bold;
+                // @media (max-width:1000px){
+                    
+                //     right: 15px;
+                // }
             }
             .timeout{
                 width: 60%;
