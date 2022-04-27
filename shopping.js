@@ -13,7 +13,7 @@ var purchase_book = document.querySelector('.purchase-book')
 let data = {
     index: 1,
     canbuy: 10,
-    reservation_txt: '預購數量(上限30台):',
+    reservation_txt: '預購數量: ',
     reservation: 0,
     index2: 1,
     canbook: 30

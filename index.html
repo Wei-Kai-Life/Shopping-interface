@@ -25,7 +25,9 @@
                 <div class="right-side">
                     暫時未解決使用google翻譯頁面後所出現的問題 
                     <div class="reservation" v-if="canbuy===0">{{reservation_txt}}<span
-                        v-if="canbuy===0">{{reservation}}</span></div>
+                        v-if="canbuy===0">{{reservation}}</span>
+                        <span v-if="canbuy===0">(上限30台)</span>
+                    </div>
                     <div class="timeout" id="timeout">倒數時間:<span id="countdown">70</span>秒</div>
                     <div class="name">商品名稱:Switch</div>
                     <div class="amount">剩餘數量:<span id="canbuy">{{canbuy}}</span></div>
